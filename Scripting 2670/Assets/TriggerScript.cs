@@ -5,12 +5,12 @@ using UnityEngine;
 public class TriggerScript : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-		
+	void OnTriggerEnter () {
+        print("Enter");
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void OnTriggerExit () {
+        print("Exit");
 	}
 }
