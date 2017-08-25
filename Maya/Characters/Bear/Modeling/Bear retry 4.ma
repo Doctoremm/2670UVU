@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Bear retry 4.ma
-//Last modified: Thu, Aug 24, 2017 03:45:40 PM
+//Last modified: Thu, Aug 24, 2017 09:33:55 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "15BEC3AF-4CBA-8B8C-D73D-6DAA03899D83";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -39.19647377904127 9.691976763162609 43.509065502265791 ;
-	setAttr ".r" -type "double3" 1.4616472566377716 -5083.0000000000036 -1.3590186742159436e-016 ;
+	setAttr ".t" -type "double3" 7.5876131996505194 13.081299381221154 59.959319033734175 ;
+	setAttr ".r" -type "double3" -2.1383526813759346 -5392.5999999898559 -2.5056777278662093e-017 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "00A0C860-440A-F71D-8D36-84BE1C37CF87";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 53.353919959633103;
+	setAttr ".coi" 58.000434756505967;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
