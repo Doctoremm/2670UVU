@@ -1,0 +1,12 @@
+Game Mechanics
+Dareah Roberts
+
+Player boy:
+walk, run, jump, collect, push, pull, place.  These are used to move the character around and perform tasks to solve puzzles
+
+Ride Bear Ability:
+maybe used only a certain amount of times and needs to be done in the right spot to help solve a puzzle.
+
+Items:
+Can be placed, collected, pushed, pulled.  
+Some objects in the environment can be pushed or pulled to trigger something.  This can be used for solving the overall puzzle such as you have to find an item and place it somewhere to trigger somethilng that needs to be pushed to trigger a way forward.
