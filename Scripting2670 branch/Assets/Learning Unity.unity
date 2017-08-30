@@ -324,7 +324,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1055426542
+  randomSeed: 155684654
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3916,7 +3916,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1279455371
+  randomSeed: 1573068241
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7183,7 +7183,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1699822575
+  randomSeed: 1430682269
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10547,6 +10547,7 @@ GameObject:
   - component: {fileID: 784270483}
   - component: {fileID: 784270485}
   - component: {fileID: 784270484}
+  - component: {fileID: 784270486}
   m_Layer: 13
   m_Name: CharacterOffset
   m_TagString: Player
@@ -10598,6 +10599,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5, y: 20, z: 6}
   m_Center: {x: 0, y: 10, z: 0}
+--- !u!114 &784270486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 784270482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc1f0c45be33774ea5761307bb0f290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &910400332
 GameObject:
   m_ObjectHideFlags: 0
@@ -10867,8 +10879,6 @@ GameObject:
   - component: {fileID: 1510124200}
   - component: {fileID: 1510124199}
   - component: {fileID: 1510124198}
-  - component: {fileID: 1510124202}
-  - component: {fileID: 1510124201}
   m_Layer: 12
   m_Name: solo_gun_flames
   m_TagString: Untagged
@@ -11017,7 +11027,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 295413651
+  randomSeed: 1627177577
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -14093,28 +14103,6 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
---- !u!114 &1510124201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1510124196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed2c7d26aa00f7f46804c003ab4dac68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1510124202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1510124196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fc6ef852ad2cbe4193f9d737c47be0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1524743842
 GameObject:
   m_ObjectHideFlags: 0
@@ -14128,6 +14116,7 @@ GameObject:
   - component: {fileID: 1524743846}
   - component: {fileID: 1524743845}
   - component: {fileID: 1524743844}
+  - component: {fileID: 1524743849}
   m_Layer: 16
   m_Name: AnimRoot
   m_TagString: Untagged
@@ -14220,6 +14209,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1524743849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1524743842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e98e82883342d4cb4b98ea6d2463af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1742574865
 GameObject:
   m_ObjectHideFlags: 0
@@ -14356,6 +14356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed2c7d26aa00f7f46804c003ab4dac68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
 --- !u!114 &1775461900
 MonoBehaviour:
   m_ObjectHideFlags: 0

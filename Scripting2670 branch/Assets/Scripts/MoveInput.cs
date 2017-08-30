@@ -12,6 +12,7 @@ public class MoveInput : MonoBehaviour {
         if (KeyAction != null)
         {
             KeyAction(Input.GetAxis("Horizontal"));
+            print("Input");
         }
 	}
 }
