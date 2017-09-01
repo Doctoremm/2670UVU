@@ -15,13 +15,17 @@ public class MoveCharacter : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         cc = GetComponent<CharacterController>();
-        MoveInput.KeyAction += Move;
-	}
 
-   
-        void Move(float _movement) {
+    PlayButton.Play += OnPlay;
+	}
+void OnPlay()
+{
+    MoveInput.KeyAction += Move;
+        PlayButton.Play -= OnPlay;
+    }
+
+void Move(float _movement) {
             tempMove.x = _movement * speed * Time.deltaTime;
             cc.Move(tempMove);
-        print(_movement);
 	}
 }
