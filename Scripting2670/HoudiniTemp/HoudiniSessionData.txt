@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 CurrentProcessId = 13264
 ServerProcessID = 13936
 ServerSessionID = 381428736
 HoudiniSceneExists = true
+=======
+CurrentProcessId = 6464
+>>>>>>> Stashed changes
