@@ -18,12 +18,15 @@ public class MoveCharacter : MonoBehaviour {
 
     PlayButton.Play += OnPlay;
 	}
+
+//Playbutton
 void OnPlay()
 {
     MoveInput.KeyAction += Move;
         PlayButton.Play -= OnPlay;
     }
 
+//moving
 void Move(float _movement) {
             tempMove.x = _movement * speed * Time.deltaTime;
             cc.Move(tempMove);
