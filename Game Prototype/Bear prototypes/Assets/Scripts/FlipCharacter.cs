@@ -24,18 +24,12 @@ public class FlipCharacter : MonoBehaviour {
 
     void Crouch()
     {
-        rotValue.z = 90;
-
-        myRotate.eulerAngles = rotValue;
-        transform.rotation = myRotate;
+        transform.localScale = new Vector3(1, .5f, 1);
     }
 
     void Standing()
     {
-        rotValue.z = 0;
-
-        myRotate.eulerAngles = rotValue;
-        transform.rotation = myRotate;
+        transform.localScale = new Vector3(1, 1, 1);
     }
        
     private void Flip(float obj)
