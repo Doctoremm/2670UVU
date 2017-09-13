@@ -12,7 +12,9 @@ public class Reset : MonoBehaviour {
 	}
 	
     void ResetThis()
-    {
-        transform.position = startPoint.position;
-    }
+       
+       {
+          transform.position = startPoint.position;
+        }
+    
 }
