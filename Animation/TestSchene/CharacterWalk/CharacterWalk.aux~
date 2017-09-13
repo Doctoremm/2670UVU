@@ -1,0 +1,21 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="CharacterWalk" ID="1">
+ <Element Name="Drawing" ID="1" Folder="Drawing">
+  <Drawing Key="Key" Name="1" Version="1"/>
+  <Drawing Key="Key" Name="2" Version="1"/>
+  <Drawing Key="Key" Name="3" Version="1"/>
+  <Drawing Key="Key" Name="4" Version="1"/>
+  <Drawing Key="Key" Name="5" Version="1"/>
+  <Drawing Key="Key" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="Key" Name="8" Version="1"/>
+  <Drawing Key="Key" Name="9" Version="1"/>
+  <Drawing Key="Key" Name="10" Version="1"/>
+  <Drawing Key="Key" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
+ </Element>
+ <Element Name="reference" ID="2" Folder="reference">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+</SceneVersion>
