@@ -3,23 +3,21 @@
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1" key="0"/>
-    <dwg name="2" scaleFactor="1" key="0"/>
-    <dwg name="3" scaleFactor="1" key="0"/>
-    <dwg name="4" scaleFactor="1" key="0"/>
-    <dwg name="5" scaleFactor="1" key="0"/>
-    <dwg name="6" scaleFactor="1" key="0"/>
+    <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
+    <dwg name="6" scaleFactor="1"/>
     <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1" key="0"/>
-    <dwg name="9" scaleFactor="1" key="0"/>
-    <dwg name="10" scaleFactor="1" key="0"/>
-    <dwg name="11" scaleFactor="1" key="0"/>
-    <dwg name="12" scaleFactor="1" key="0"/>
-    <dwg name="13" scaleFactor="1" key="0"/>
-    <dwg name="14" scaleFactor="1" key="0"/>
+    <dwg name="8" scaleFactor="1"/>
+    <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="4" elementName="Reference" elementFolder="Reference.4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="2" elementName="reference" elementFolder="reference" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
    </drawings>
@@ -38,19 +36,19 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="08cb4c7c34b00abb" nbframes="13">
+  <scene name="Top" id="08cbd11d9db7a134" nbframes="12">
    <columns>
-    <column type="0" name="Drawing" displayOrder="1" width="69" anonymous="true" id="1">
-     <elementSeq exposures="1-2" val="14" id="1"/>
-     <elementSeq exposures="3,4" val="8" id="1"/>
-     <elementSeq exposures="5,6" val="9" id="1"/>
-     <elementSeq exposures="7-8" val="10" id="1"/>
-     <elementSeq exposures="9-10" val="11" id="1"/>
-     <elementSeq exposures="11-12" val="12" id="1"/>
-     <elementSeq exposures="13-14" val="13" id="1"/>
+    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
+     <elementSeq exposures="1-2" val="1" id="1"/>
+     <elementSeq exposures="3-4" val="9" id="1"/>
+     <elementSeq exposures="5-6" val="10" id="1"/>
+     <elementSeq exposures="7-8" val="11" id="1"/>
+     <elementSeq exposures="9-10" val="12" id="1"/>
+     <elementSeq exposures="11-12" val="8" id="1"/>
+     <elementSeq exposures="13" val="7" id="1"/>
     </column>
-    <column type="0" name="Reference" displayOrder="2" width="100" anonymous="true" id="4">
-     <elementSeq exposures="1-16" val="1" id="4"/>
+    <column type="0" name="ATV-08CBD11D9DB7A60C" display="false" displayOrder="2" width="100" anonymous="true" id="2">
+     <elementSeq exposures="1-60" val="1" id="2"/>
     </column>
    </columns>
    <options>
@@ -216,8 +214,9 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Reference" pos="0,0,0" publishUnderTab="Reference">
+     <module type="READ" name="reference" pos="0,0,0" publishUnderTab="reference">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -276,7 +275,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="Reference">
+        <element col="ATV-08CBD11D9DB7A60C">
          <layer/>
         </element>
         <customName>
@@ -295,7 +294,7 @@
        <underlayArtDrawingMode val="VectorDrawingMode"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
+       <applyMatteToColor val="W"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
@@ -315,7 +314,7 @@
        <noClipping val="false"/>
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <alignmentRule val="CENTER_FIT"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
       </attrs>
@@ -325,17 +324,17 @@
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="Drawing" in="Composite" inport="1"/>
-     <link out="Reference" in="Composite" inport="0"/>
+     <link out="reference" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
   </scene>
  </scenes>
  <symbols>
   <folder name="Symbols">
-   <scene id="08cb4c7c34b00abb"/>
+   <scene id="08cbd11d9db7a134"/>
   </folder>
  </symbols>
  <timeline>
-  <scene id="08cb4c7c34b00abb"/>
+  <scene id="08cbd11d9db7a134"/>
  </timeline>
 </project>
