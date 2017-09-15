@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3153,7 +3153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f51696d2869f7b4da2aa53c5a4568ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   gravity: 0.7
   jumpHeight: 0.3
 --- !u!114 &706980099
@@ -3905,7 +3905,6 @@ GameObject:
   - component: {fileID: 881577586}
   - component: {fileID: 881577585}
   - component: {fileID: 881577584}
-  - component: {fileID: 881577589}
   - component: {fileID: 881577590}
   m_Layer: 0
   m_Name: Vine
@@ -3926,6 +3925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveIt: {x: 0, y: 0, z: 0}
+  startPoint: {fileID: 1764459285}
 --- !u!23 &881577585
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3992,18 +3992,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &881577589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 881577583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5e563145ebab4e4f928ca2185d64a77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPoint: {fileID: 1764459285}
 --- !u!114 &881577590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5224,6 +5212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveIt: {x: 0, y: 0, z: 0}
+  startPoint: {fileID: 0}
 --- !u!23 &1224741786
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8696,7 +8685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -427, y: -165}
+  m_AnchoredPosition: {x: -427, y: -88.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1775432605
@@ -10644,7 +10633,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2078786889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -162.63, y: -23.13, z: 6.5}
+  m_LocalPosition: {x: -162.63, y: -22, z: 6.5}
   m_LocalScale: {x: 36.418774, y: 1.1988991, z: 58.022972}
   m_Children: []
   m_Father: {fileID: 0}

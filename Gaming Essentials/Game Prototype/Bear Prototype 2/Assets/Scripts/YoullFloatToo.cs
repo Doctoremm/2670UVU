@@ -7,9 +7,8 @@ public class YoullFloatToo : MonoBehaviour {
 
     public Vector3 moveIt;
     private Vector3 startPosition;
+    public Transform startPoint;
     
-
-
     public void OnTriggerEnter()
     {
         moveIt = startPosition;
@@ -26,7 +25,13 @@ public class YoullFloatToo : MonoBehaviour {
             moveIt.y += 0.1f * Time.deltaTime;
             transform.Translate(moveIt);
             yield return new WaitForSeconds(0.01f);
+                      
         }
-    }		
+        while (moveIt.y == 0.35f)
+        {
+            transform.position =  startPoint.position;
+            yield return new WaitForSeconds(0.01f);
+        }
+    }
 }
 
