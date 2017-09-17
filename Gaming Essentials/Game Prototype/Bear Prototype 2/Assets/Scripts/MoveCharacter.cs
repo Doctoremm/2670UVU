@@ -8,7 +8,7 @@ public class MoveCharacter : MonoBehaviour {
     CharacterController cc;
     Vector3 tempMove;
 
-    public float speed = 5;
+    public float speed = 10;
     public float gravity = 1;
     public float jumpHeight;
     private bool doubleJump;
@@ -54,4 +54,18 @@ public class MoveCharacter : MonoBehaviour {
         cc.Move(tempMove);
     }
 
+    //swimming
+    //void OnTriggerEnter(Collider water)
+   // { if(water.tag = "Water")
+      //  {
+       // gravity = .5f;
+     //   }
+   // }
+
+   // void OnTriggerExit(Collider water)
+    //{ if(water.tag = "Water")
+       // {
+        //gravity = 1f;
+      //  }
+  //  }
 }

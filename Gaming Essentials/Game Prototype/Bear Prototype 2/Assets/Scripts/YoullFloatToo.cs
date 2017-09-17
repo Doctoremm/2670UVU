@@ -27,11 +27,9 @@ public class YoullFloatToo : MonoBehaviour {
             yield return new WaitForSeconds(0.01f);
                       
         }
-        while (moveIt.y == 0.35f)
-        {
-            transform.position =  startPoint.position;
-            yield return new WaitForSeconds(0.01f);
-        }
+    }
+    public void OnTriggerExit(){
+        transform.position = startPoint.position;
     }
 }
 

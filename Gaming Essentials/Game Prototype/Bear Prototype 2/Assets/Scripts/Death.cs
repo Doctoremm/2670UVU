@@ -7,10 +7,12 @@ public class Death : MonoBehaviour {
 
     public static Action End;
 
-    // Use this for initialization
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider coll)
     {
-           End();      
+        if(coll.tag == "Player")
+        {
+            End();
+       }      
     }
 
 }

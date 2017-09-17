@@ -11,8 +11,7 @@ public class Reset : MonoBehaviour {
         Death.End += ResetThis;
 	}
 	
-    void ResetThis()
-       
+    void ResetThis()       
        {
           transform.position = startPoint.position;
         }
