@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectInteraction : MonoBehaviour {
 
-    public float pushPower = 2;
+    public float pushPower = 5;
 
     public void OnControllerColliderHit(ControllerColliderHit hit)
     {

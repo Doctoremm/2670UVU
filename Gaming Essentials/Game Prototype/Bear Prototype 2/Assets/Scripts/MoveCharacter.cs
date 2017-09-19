@@ -8,7 +8,7 @@ public class MoveCharacter : MonoBehaviour {
     CharacterController cc;
     Vector3 tempMove;
 
-    public float speed = 10;
+    public float speed = 15;
     public float gravity = 1;
     public float jumpHeight;
     private bool doubleJump;
