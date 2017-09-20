@@ -1,0 +1,15 @@
+Design Document
+Dareah Roberts
+
+Mindset    
+The Player should feel wonder and adventurous.  They are not overly strong, and so use must use their wits to continue forward.  This will be done via puzzles staggered throughout the game.
+Controls    
+They can walk left and right, jump and doublejump, crouch, and push objects.  Using these controls, they can crawl through tight spaces to reach new areas, push objects to hit a trigger that'll open a new pathway, jump their way through the forest, etc.  They will also be collecting some items for a bear that stands in the way.  When they have the item, (honey, berries, fish) the bear may move out of the way or even help show a new path.
+Level Design
+(May be subject to change)
+Starting out in the forest, the player will traverse jump puzzles, avoiding thorns that if touched will kill you.  There are vines that if you stand in front of, will take you upwards into the treetops.
+Second area will be a lake where you need to go through mostly push puzzles and triggers to make it through.  Nothing really dangerous other than pushing something that could block the way.  
+Last area is a cave where you crouch through tunnels to get through.  Avoiding falling stalagtites that'll kill you if they fall on top of you. 
+Once you make it out, you will approach a bear that stands in your way.
+
+That's as far as i've got built.  If you've read this far then congratulations!  I hate it all and will most likely be trying to redesign itd to be better, more complex, and more in sinq.  Because I hate what I currently have.  The puzzles are boring, it's small, random, and not well done.  I am going to try to redesign it on paper first and try to plan the puzzles before building them.  What's worst is I feel like I'm just taking everyone else's ideas and using them.  I'm not being original.  I don't know what to do that's different though.  There's my rant.
