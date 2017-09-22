@@ -11,6 +11,7 @@ public class MoveInput : MonoBehaviour {
     public static Action JumpAction;
     public static Action CrouchAction;
     public static Action StandingAction;
+    public static Action GrabbingAction;
 
     private void Start()
     {
@@ -33,6 +34,11 @@ public class MoveInput : MonoBehaviour {
             if (Input.GetKeyUp(KeyCode.DownArrow))
             {
                 StandingAction();
+            }
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                GrabbingAction();
             }
 
             if (KeyAction != null)

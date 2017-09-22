@@ -7,11 +7,14 @@ public class MoveCharacter : MonoBehaviour {
 
     CharacterController cc;
     Vector3 tempMove;
-
+    
     public float speed = 15;
     public float gravity = 1;
+    public float maxFallSpeed = -0.5f;
+    public float fallSpeed = -0f;
     public float jumpHeight;
     private bool doubleJump;
+    
 
 	// Use this for initialization
 	void Start () {
@@ -49,23 +52,43 @@ public class MoveCharacter : MonoBehaviour {
     //moving
     void Move(float _movement)
     {
-        tempMove.y -= gravity * Time.deltaTime;
-        tempMove.x = _movement * speed * Time.deltaTime;
-        cc.Move(tempMove);
+        if(tempMove.y > maxFallSpeed)
+        {
+            tempMove.y -= gravity * Time.deltaTime;
+        }
+        else if(tempMove.y != maxFallSpeed)
+        {
+            tempMove.y = maxFallSpeed;
+        }
+            tempMove.x = _movement * speed * Time.deltaTime;
+            cc.Move(tempMove);
+        
     }
 
     //swimming
-    //void OnTriggerEnter(Collider water)
-   // { if(water.tag = "Water")
-      //  {
-       // gravity = .5f;
-     //   }
-   // }
+    void OnTriggerEnter(Collider col)
+    { if(col.tag == "Water")
+            {
+            gravity = .5f;
+            }
+       if(col.tag == "swamp")
+		    {
+			tempMove.y = fallSpeed;
+            gravity = .05f;
+            doubleJump = true;
+		    }
+    }
 
-   // void OnTriggerExit(Collider water)
-    //{ if(water.tag = "Water")
-       // {
-        //gravity = 1f;
-      //  }
-  //  }
+   void OnTriggerExit(Collider col)
+    { 
+        if(col.tag == "Water")
+            {
+            gravity = 1f;
+            }
+        if(col.tag == "swamp")
+        {
+            tempMove.y -= gravity* Time.deltaTime;
+            gravity = 1;
+        }    
+    }
 }

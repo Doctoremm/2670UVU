@@ -8,6 +8,7 @@ public class YoullFloatToo : MonoBehaviour {
     public Vector3 moveIt;
     private Vector3 startPosition;
     public Transform startPoint;
+    public float movement;
     
     public void OnTriggerEnter()
     {
@@ -19,7 +20,7 @@ public class YoullFloatToo : MonoBehaviour {
 
     public IEnumerator BalloonFloat()
     {      
-        while (moveIt.y < 0.35f)
+        while (moveIt.y < movement)
         {
             print("We all float down here!");
             moveIt.y += 0.1f * Time.deltaTime;
