@@ -11,7 +11,7 @@ public class MoveCharacter : MonoBehaviour {
     public float speed = 15;
     public float gravity = 1;
     public float maxFallSpeed = -0.5f;
-    public float fallSpeed = -0f;
+    public float fallSpeed = -.1f;
     public float jumpHeight;
     private bool doubleJump;
     
@@ -66,16 +66,17 @@ public class MoveCharacter : MonoBehaviour {
     }
 
     //swimming
-    void OnTriggerEnter(Collider col)
+    void OnTriggerStay(Collider col)
     { if(col.tag == "Water")
             {
-            gravity = .5f;
+            gravity = 1f;
             }
        if(col.tag == "swamp")
 		    {
 			tempMove.y = fallSpeed;
-            gravity = .05f;
+            gravity = 1f;
             doubleJump = true;
+            jumpHeight = .3f;
 		    }
     }
 
@@ -89,6 +90,7 @@ public class MoveCharacter : MonoBehaviour {
         {
             tempMove.y -= gravity* Time.deltaTime;
             gravity = 1;
+            jumpHeight = .3f;
         }    
     }
 }
