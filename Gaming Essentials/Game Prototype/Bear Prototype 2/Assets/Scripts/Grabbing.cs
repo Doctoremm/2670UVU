@@ -5,17 +5,12 @@ using System;
 
 public class Grabbing : MonoBehaviour {
 
-	public GameObject player;
-	public GameObject objects;
+	public Transform objects;
 
-	void Start()
+	void OnTriggerEnter()
 	{
-		MoveInput.GrabbingAction += Grab;
+		transform.parent = objects;
+		transform.localPosition = Vector3.zero;
+		transform.localRotation = Quaternion.identity;
 	}
-
-	void Grab()
-	{
-		
-	}
-
 }

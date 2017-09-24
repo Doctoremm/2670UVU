@@ -8,7 +8,7 @@ public class YoullFloatToo : MonoBehaviour {
     public Vector3 moveIt;
     private Vector3 startPosition;
     public Transform startPoint;
-    public float movement;
+    public float movement ;
     
     public void OnTriggerEnter()
     {

@@ -11,7 +11,7 @@ public class MoveCharacter : MonoBehaviour {
     public float speed = 15;
     public float gravity = 1;
     public float maxFallSpeed = -0.5f;
-    public float fallSpeed = -.1f;
+    public float fallSpeed = -.01f;
     public float jumpHeight;
     private bool doubleJump;
     
@@ -69,12 +69,13 @@ public class MoveCharacter : MonoBehaviour {
     void OnTriggerStay(Collider col)
     { if(col.tag == "Water")
             {
-            gravity = 1f;
+                gravity = .5f;
+                doubleJump = true;
             }
        if(col.tag == "swamp")
 		    {
 			tempMove.y = fallSpeed;
-            gravity = 1f;
+            gravity = .5f;
             doubleJump = true;
             jumpHeight = .3f;
 		    }
@@ -84,7 +85,7 @@ public class MoveCharacter : MonoBehaviour {
     { 
         if(col.tag == "Water")
             {
-            gravity = 1f;
+                gravity = 1f;
             }
         if(col.tag == "swamp")
         {
