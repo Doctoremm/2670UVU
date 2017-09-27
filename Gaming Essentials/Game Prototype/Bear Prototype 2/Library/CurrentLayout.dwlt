@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 563}
   m_MaxSize: {x: 22006, y: 12063}
   vertical: 0
-  controlID: 159
+  controlID: 90
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 563}
   m_MaxSize: {x: 4002, y: 12063}
   vertical: 1
-  controlID: 34
+  controlID: 10
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -373,9 +373,9 @@ MonoBehaviour:
     height: 1286
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c4b0000
-    m_LastClickedID: 19228
-    m_ExpandedIDs: a836f5ffc423f7ff2e5af7ffec7df8ff04fcffff00000000e0270000e4270000b2440000e84b0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1afcffff0000000058270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,20 +469,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jawae\Documents\Dareah's Schoolwork\2670UVU\Gaming Essentials\Game
     Prototype\Bear Prototype 2
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e270000
-    m_LastClickedID: 10046
-    m_ExpandedIDs: 00000000e626000000ca9a3bffffff7f
+    m_SelectedIDs: c4260000
+    m_LastClickedID: 9924
+    m_ExpandedIDs: 000000002c26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -510,7 +510,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e6260000
+    m_ExpandedIDs: 000000002c260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -668,14 +668,14 @@ MonoBehaviour:
     width: 1515
     height: 645
   m_SceneLighting: 1
-  lastFramingTime: 13166.738339729434
+  lastFramingTime: 2039.1455299906015
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.9225173, y: 15.923639, z: -2.923706}
+    m_Target: {x: -89.99231, y: -14.835453, z: 9.540726}
     speed: 2
-    m_Value: {x: -4.9225173, y: 15.923639, z: -2.923706}
+    m_Value: {x: -89.99231, y: -14.835453, z: 9.540726}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -698,13 +698,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.100637116, y: -0.00031521067, z: -0.0005483107, w: 0.9948953}
+    m_Target: {x: 0.06177012, y: -0.01944294, z: 0.0005859041, w: 0.9978828}
     speed: 2
-    m_Value: {x: 0.100639895, y: -0.00031521937, z: -0.0005483258, w: 0.99492276}
+    m_Value: {x: 0.061771233, y: -0.019443292, z: 0.0005859147, w: 0.9979008}
   m_Size:
-    m_Target: 83.07195
+    m_Target: 263.57843
     speed: 2
-    m_Value: 83.07195
+    m_Value: 263.57843
   m_Ortho:
     m_Target: 0
     speed: 2

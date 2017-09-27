@@ -70,6 +70,7 @@ public class MoveCharacter : MonoBehaviour {
     { if(col.tag == "Water")
             {
                 gravity = .5f;
+                speed = 3f;
                 doubleJump = true;
             }
        if(col.tag == "swamp")
@@ -78,6 +79,7 @@ public class MoveCharacter : MonoBehaviour {
             gravity = .5f;
             doubleJump = true;
             jumpHeight = .3f;
+            speed = 3f;
 		    }
     }
 
@@ -86,12 +88,14 @@ public class MoveCharacter : MonoBehaviour {
         if(col.tag == "Water")
             {
                 gravity = 1f;
+                speed = 10f;
             }
         if(col.tag == "swamp")
         {
             tempMove.y -= gravity* Time.deltaTime;
             gravity = 1;
             jumpHeight = .3f;
+            speed = 10f;
         }    
     }
 }
