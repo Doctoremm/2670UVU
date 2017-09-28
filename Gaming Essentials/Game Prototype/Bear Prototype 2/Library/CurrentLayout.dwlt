@@ -66,9 +66,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
     height: 997
   m_MinSize: {x: 950, y: 300}
+=======
+    width: 2560
+    height: 1357
+  m_MinSize: {x: 950, y: 613}
+>>>>>>> master
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -111,12 +117,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 913, y: 563}
   m_MaxSize: {x: 22008, y: 12063}
   vertical: 0
   controlID: 21
+=======
+    width: 2560
+    height: 1307
+  m_MinSize: {x: 917, y: 563}
+  m_MaxSize: {x: 22012, y: 12063}
+  vertical: 0
+  controlID: 152
+>>>>>>> master
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,7 +176,11 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 563}
   m_MaxSize: {x: 4002, y: 12063}
   vertical: 1
+<<<<<<< HEAD
   controlID: 22
+=======
+  controlID: 90
+>>>>>>> master
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,10 +197,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1138
     y: 0
+<<<<<<< HEAD
     width: 206
     height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 274
+    height: 1307
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+>>>>>>> master
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -228,8 +254,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1640
     y: 0
+<<<<<<< HEAD
     width: 280
     height: 947
+=======
+    width: 374
+    height: 1307
+>>>>>>> master
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -254,8 +285,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1138
     height: 483
+=======
+    width: 1517
+    height: 666
+>>>>>>> master
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
@@ -373,9 +409,15 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 12fafeff
     m_LastClickedID: -67054
     m_ExpandedIDs: 7679faff10adfaff04fcffff00000000
+=======
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1afcffff00000000
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: SpeedChangeTrigger
@@ -474,6 +516,7 @@ MonoBehaviour:
   m_StartGridSize: 16
   m_LastFolders:
   - Assets/Scripts
+<<<<<<< HEAD
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\10664464\Desktop\Schoolwork for reals\2670UVU\Gaming
     Essentials\Game Prototype\Bear Prototype 2
@@ -483,6 +526,17 @@ MonoBehaviour:
     m_SelectedIDs: 4e270000
     m_LastClickedID: 10062
     m_ExpandedIDs: 00000000f226000000ca9a3bffffff7f
+=======
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\jawae\Documents\Dareah's Schoolwork\2670UVU\Gaming Essentials\Game
+    Prototype\Bear Prototype 2
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 88260000
+    m_LastClickedID: 9864
+    m_ExpandedIDs: 000000002c26000000ca9a3bffffff7f
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -668,14 +722,24 @@ MonoBehaviour:
     width: 1136
     height: 462
   m_SceneLighting: 1
+<<<<<<< HEAD
   lastFramingTime: 18079.611707860557
+=======
+  lastFramingTime: 156.90480152384424
+>>>>>>> master
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -254.34207, y: -2.0117722, z: -16.743668}
     speed: 2
     m_Value: {x: -254.34207, y: -2.0117722, z: -16.743668}
+=======
+    m_Target: {x: -82, y: -49.2, z: 0}
+    speed: 2
+    m_Value: {x: -82, y: -49.2, z: 0}
+>>>>>>> master
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -698,6 +762,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.29994103, y: 0.03021555, z: -0.01014243, w: 0.95342946}
     speed: 2
     m_Value: {x: 0.2999398, y: 0.030215427, z: -0.010142389, w: 0.9534256}
@@ -705,6 +770,15 @@ MonoBehaviour:
     m_Target: 182.1015
     speed: 2
     m_Value: 182.1015
+=======
+    m_Target: {x: 0.045289587, y: -0.032930836, z: 0.00087311846, w: 0.99841046}
+    speed: 2
+    m_Value: {x: 0.0452905, y: -0.0329315, z: 0.00087313604, w: 0.99843055}
+  m_Size:
+    m_Target: 22.264545
+    speed: 2
+    m_Value: 22.264545
+>>>>>>> master
   m_Ortho:
     m_Target: 0
     speed: 2

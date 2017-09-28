@@ -399,13 +399,20 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 29855702}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0.19957156, w: 0.9798833}
   m_LocalPosition: {x: -237.921, y: 10.237995, z: 7.1050014}
   m_LocalScale: {x: 1.5420518, y: 4.007802, z: 1.5420511}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0.37497708, w: 0.9270341}
+  m_LocalPosition: {x: -87.11, y: 1.1, z: 22.9}
+  m_LocalScale: {x: 5.189196, y: 13.486751, z: 5.1891937}
+>>>>>>> master
   m_Children:
   - {fileID: 1259473105}
   - {fileID: 2008908132}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -23.024}
 --- !u!1 &99016753
@@ -544,6 +551,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: -18.915, y: 1.6780001, z: -5.163}
+=======
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -44.046}
+>>>>>>> master
 --- !u!1 &182943554
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,7 +995,11 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
+<<<<<<< HEAD
   m_Color: {r: 0.9191176, g: 0.56093204, b: 0.56093204, a: 1}
+=======
+  m_Color: {r: 0.8076722, g: 0.68663496, b: 0.9338235, a: 1}
+>>>>>>> master
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -5860,6 +5875,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2094110487}
   m_LocalRotation: {x: -0.046271384, y: 0.010839133, z: -0.2278194, w: 0.972543}
   m_LocalPosition: {x: 0.6068455, y: -0.118634835, z: 0}
@@ -5870,6 +5886,19 @@ Transform:
   m_LocalEulerAnglesHint: {x: -4.88, y: 2.4250002, z: -26.471}
 --- !u!23 &2094110489
 MeshRenderer:
+=======
+  m_GameObject: {fileID: 1987515654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -82, y: -49.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1655920239}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1987515661
+MonoBehaviour:
+>>>>>>> master
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
