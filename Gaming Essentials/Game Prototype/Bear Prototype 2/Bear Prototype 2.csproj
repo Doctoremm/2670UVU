@@ -88,12 +88,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ChangeSpeed.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\CreateTrigger.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\Falling.cs" />
     <Compile Include="Assets\Scripts\FlipCharacter.cs" />
+    <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\Scripts\Grabbing.cs" />
     <Compile Include="Assets\Scripts\Load.cs" />
     <Compile Include="Assets\Scripts\MoveCharacter.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Assets\Scripts\ObjectInteraction.cs" />
     <Compile Include="Assets\Scripts\PlayButton.cs" />
     <Compile Include="Assets\Scripts\Reset.cs" />
+    <Compile Include="Assets\Scripts\StaticVars.cs" />
     <Compile Include="Assets\Scripts\YoullFloatToo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
