@@ -22,7 +22,7 @@ public class Grabbing : MonoBehaviour {
                 transform.localRotation = Quaternion.identity;
             }
 
-            if (Input.GetKeyUp(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.R))
             {
                 transform.parent = null;
                 RB.isKinematic = false;
