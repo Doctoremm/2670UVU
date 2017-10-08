@@ -9,9 +9,9 @@ public class GameData : MonoBehaviour {
     public float dragSpeed = 5;
     public float boostSpeed = 30;
 
-    public float gravity = 15;
+    public float gravity = 1;
     public float dragGravity = 5;
-    public float boostGravity = 30;
+    public float boostGravity = .75f;
 
     public float jumpHeight = .3f;
     public float dragJumpHeight = .1f;

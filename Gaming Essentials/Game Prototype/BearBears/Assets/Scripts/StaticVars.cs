@@ -20,6 +20,7 @@ public class StaticVars : MonoBehaviour {
     public enum GameSpeed
     {
         DRAG,
-        BOOST
+        BOOST,
+        WATER
     }
 }

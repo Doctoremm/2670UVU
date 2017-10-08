@@ -14,6 +14,7 @@ public class Reset : MonoBehaviour {
     void ResetThis()       
        {
           transform.position = startPoint.position;
+          transform.parent = null;
         }
     
 }
