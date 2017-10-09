@@ -8,7 +8,7 @@ public class RotateObject : MonoBehaviour {
 
 
 	void OnTriggerEnter(){
-		gameObject.transform.Rotate(0,33.33f,0);
+		gameObject.transform.Rotate(0, 90, 0);
 	}
 
 }

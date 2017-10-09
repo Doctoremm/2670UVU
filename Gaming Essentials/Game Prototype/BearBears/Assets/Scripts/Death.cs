@@ -7,12 +7,18 @@ public class Death : MonoBehaviour {
 
     public static Action End;
 
-    void OnTriggerEnter(Collider coll)
+    private void Start()
     {
-        if(coll.tag == "Player")
-        {
-            End();
-       }      
+        SendHealth.Die += EndMe;
     }
 
+    void OnTriggerEnter()
+    {
+            End();
+    }
+
+    void EndMe()
+    {
+        End();
+    }
 }
