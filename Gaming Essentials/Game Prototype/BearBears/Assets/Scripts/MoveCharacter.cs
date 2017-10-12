@@ -43,6 +43,7 @@ public class MoveCharacter : MonoBehaviour
         if (cc.isGrounded)
         {
             tempMove.y = jumpHeight;
+            tempMove.z = 0;
             doubleJump = true;
         }
         else
@@ -61,10 +62,12 @@ public class MoveCharacter : MonoBehaviour
         if (tempMove.y > maxFallSpeed)
         {
             tempMove.y -= gravity * Time.deltaTime;
+            tempMove.z = 0;
         }
         else if (tempMove.y != maxFallSpeed)
         {
             tempMove.y = maxFallSpeed;
+            tempMove.z = 0;
         }
         tempMove.x = _movement * speed * Time.deltaTime;
         cc.Move(tempMove);
@@ -76,6 +79,7 @@ public class MoveCharacter : MonoBehaviour
     void OnChangeSpeed(float newSpeed, float newGrav, float newJumpHeight)
     {
         tempMove.y = fallSpeed;
+        tempMove.z = 0;
         gravity = newGrav;
         doubleJump = true;
         jumpHeight = newJumpHeight;
