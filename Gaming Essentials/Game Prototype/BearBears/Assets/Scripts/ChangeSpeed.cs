@@ -26,7 +26,11 @@ public class ChangeSpeed : MonoBehaviour {
 
             case StaticVars.GameSpeed.WATER:
                 SendSpeed(StaticVars.speed*.5f, StaticVars.gravity, StaticVars.boostJumpHeight);
-                break;    
+                break;
+
+            case StaticVars.GameSpeed.JUMP:
+                SendSpeed(StaticVars.speed, StaticVars.gravity, StaticVars.boostJumpHeight *1.5f);
+                break;
 
             default:
                 SendSpeed(StaticVars.speed, StaticVars.gravity, StaticVars.jumpHeight);

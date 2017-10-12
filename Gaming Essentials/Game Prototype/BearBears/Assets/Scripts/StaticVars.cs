@@ -21,6 +21,7 @@ public class StaticVars : MonoBehaviour {
     {
         DRAG,
         BOOST,
-        WATER
+        WATER,
+        JUMP
     }
 }

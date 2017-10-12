@@ -7,7 +7,6 @@ public class YoullFloatToo : MonoBehaviour {
 
     public Vector3 moveIt;
     private Vector3 startPosition;
-    public Transform startPoint;
     public float movement ;
     
     public void OnTriggerEnter()
@@ -23,14 +22,12 @@ public class YoullFloatToo : MonoBehaviour {
         while (moveIt.y < movement)
         {
             print("We all float down here!");
-            moveIt.y += 0.1f * Time.deltaTime;
+            moveIt.y += 0.01f * Time.deltaTime;
             transform.Translate(moveIt);
+            transform.Rotate(0, 50 * Time.deltaTime, 0);
             yield return new WaitForSeconds(0.01f);
                       
         }
-    }
-    public void OnTriggerExit(){
-        transform.position = startPoint.position;
     }
 }
 
