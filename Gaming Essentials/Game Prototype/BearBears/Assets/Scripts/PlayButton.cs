@@ -7,16 +7,26 @@ using UnityEngine.UI;
 public class PlayButton : MonoBehaviour {
 
     public static Action Play;
+    public GameObject MainMenu;
 
 	// Use this for initialization
 	public void PushPlay()
     {
         Play();
-        Invoke("TurnOffButton", 0.5f);
+        MainMenu.SetActive(false);
     }
 
-    void TurnOffButton()
+    public void PushMain()
     {
-        GetComponent<Button>().interactable = false;
+        MainMenu.SetActive(true);
+    }
+
+    public void Quit()
+    {
+#if Unity_Editor
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }
