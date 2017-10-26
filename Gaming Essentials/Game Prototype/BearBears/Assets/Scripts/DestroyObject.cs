@@ -8,6 +8,6 @@ public class DestroyObject : MonoBehaviour {
 
     private void OnTriggerEnter()
     {
-        Destroy(Destroys);
+        Destroys.SetActive(false);
     }
 }

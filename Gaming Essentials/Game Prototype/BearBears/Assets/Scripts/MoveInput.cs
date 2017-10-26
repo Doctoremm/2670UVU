@@ -16,7 +16,14 @@ public class MoveInput : MonoBehaviour {
 
     private void Start()
     {
-        StartCoroutine(RunInput());
+        //StartGameplay();
+        PlayButton.Play += StartGameplay;
+    }
+
+    private void StartGameplay()
+    {
+        Time.timeScale = 1;
+        StartCoroutine(RunInput());       
     }
 
 
@@ -42,8 +49,6 @@ public class MoveInput : MonoBehaviour {
     IEnumerator RunInput () {
         while (canPlay)
         {
-           
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 JumpAction();

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: da60b3e0a1100d348baac190f2c7331a
+timeCreated: 1508984437
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Eastern Brush
+  fontNames:
+  - Eastern Brush
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -19,7 +19,7 @@ public class FlipCharacter : MonoBehaviour {
         MoveInput.KeyAction += Flip;
         MoveInput.CrouchAction += Crouch;
         MoveInput.StandingAction += Standing;
-        PlayButton.Play -= OnPlay;
+       // PlayButton.Play -= OnPlay;
 	}
 
     void Crouch()

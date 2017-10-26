@@ -105,9 +105,11 @@
     <Compile Include="Assets\Scripts\MoveCharacter.cs" />
     <Compile Include="Assets\Scripts\MoveInput.cs" />
     <Compile Include="Assets\Scripts\ObjectInteraction.cs" />
+    <Compile Include="Assets\Scripts\ObjectStart.cs" />
     <Compile Include="Assets\Scripts\PlayButton.cs" />
     <Compile Include="Assets\Scripts\playerhealth.cs" />
     <Compile Include="Assets\Scripts\Reset.cs" />
+    <Compile Include="Assets\Scripts\ResetEverything.cs" />
     <Compile Include="Assets\Scripts\RotateObject.cs" />
     <Compile Include="Assets\Scripts\SendHealth.cs" />
     <Compile Include="Assets\Scripts\StaticVars.cs" />

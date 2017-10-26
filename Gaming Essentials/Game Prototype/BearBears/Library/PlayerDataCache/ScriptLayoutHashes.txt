@@ -1,4 +1,5 @@
 WebGL
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GetData
 4b29be765bd3b57856f66193b057ac3f Assembly-CSharp.dll:.CameraController
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -113,7 +114,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 787dd37e5e90644eaffea9936e4b96ac Assembly-CSharp.dll:.UpdateHealthBar
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayButton
+a7898a7967d83ef6f755c7367157d59d Assembly-CSharp.dll:.PlayButton
 b753a999d488515387063ce004773ec2 Assembly-CSharp.dll:.Reset
 eb16f03db5f5c8fcf0f6f63352149d46 Assembly-CSharp.dll:.GameData
 ef4387460653a830724ce0a6c7e55af7 Assembly-CSharp.dll:.playerhealth
@@ -135,6 +136,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 0ee81389d98744ca2c3c1503e601ec4d Assembly-CSharp.dll:.Grabbing
 13013c1f2b1ecc6a23e91dda677c0fa9 Assembly-CSharp.dll:.Teleport
+585a7aa8964a78def12d9fc15f505ddb Assembly-CSharp.dll:.ChangeObjectPosition
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -146,10 +148,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 193b89fd18c69c712b49d7582479a049 Assembly-CSharp.dll:.CreateTrigger
 97d5aa71bd4e5045632e04bb56febfba Assembly-CSharp.dll:.RotateObject
-80d35b0564a5dc017466d039d7ceb758 Assembly-CSharp.dll:.MoveInput
+4fc324f00fbce653af2393ec36387c3d Assembly-CSharp.dll:.MoveInput
 0e161ca5560c56ed7eeff7fb035eb15a Assembly-CSharp.dll:.ChangeSpeed
 1a1d936c7ae360f297f86c89b0362f7f Assembly-CSharp.dll:.Load
 71b6bba91f792821e8502d7b0411a525 Assembly-CSharp.dll:.MoveCharacter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Death
 effa1a14b5659fe79b52c947f76ddbdb Assembly-CSharp.dll:.EnemyMovement
-585a7aa8964a78def12d9fc15f505ddb Assembly-CSharp.dll:.ChangeObjectPosition
+64643d3a16f9951113cb2ca25b6b7f30 Assembly-CSharp.dll:.ResetEverything
+0159f4559545f98f147a2701fe9471bd Assembly-CSharp.dll:.ObjectStart

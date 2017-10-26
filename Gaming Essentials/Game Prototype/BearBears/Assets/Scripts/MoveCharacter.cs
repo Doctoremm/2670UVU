@@ -26,14 +26,23 @@ public class MoveCharacter : MonoBehaviour
 
     }
 
+    void DisableActions() {
+
+        MoveInput.JumpAction -= Jump;
+        MoveInput.KeyAction -= Move;
+        ChangeSpeed.SendSpeed -= OnChangeSpeed;
+    }
+
+
     void OnPlay()
     {
+        DisableActions();
         MoveInput.JumpAction += Jump;
         MoveInput.KeyAction += Move;
         ChangeSpeed.SendSpeed += OnChangeSpeed;
         speed = StaticVars.speed;
         gravity = StaticVars.gravity;
-        PlayButton.Play -= OnPlay;
+        //PlayButton.Play -= OnPlay;
     }
 
 
