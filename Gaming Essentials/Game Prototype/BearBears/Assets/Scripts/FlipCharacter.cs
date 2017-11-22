@@ -24,12 +24,12 @@ public class FlipCharacter : MonoBehaviour {
 
     void Crouch()
     {
-        transform.localScale = new Vector3(1, .5f, 1);
+        transform.localScale = new Vector3(2, 1.5f, 2);
     }
 
     void Standing()
     {
-        transform.localScale = new Vector3(1, 1, 1);
+        transform.localScale = new Vector3(2, 3, 2);
     }
        
     private void Flip(float obj)
