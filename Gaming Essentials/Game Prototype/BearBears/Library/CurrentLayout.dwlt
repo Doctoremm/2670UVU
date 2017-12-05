@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 684}
   m_MaxSize: {x: 22012, y: 16084}
   vertical: 1
-  controlID: 137
+  controlID: 65
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 684}
   m_MaxSize: {x: 22012, y: 16084}
   vertical: 0
-  controlID: 138
+  controlID: 66
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 826
     width: 1030
     height: 121
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -370,15 +370,21 @@ MonoBehaviour:
     - {fileID: 1107313555215521538, guid: e85bcbd8696671c41b94be6d4eeb0aa1, type: 2}
     - {fileID: 1107398630878432476, guid: 4c1de5de0d78dee4f8a259a14c1a612f, type: 2}
     - {fileID: 1107685749916563298, guid: 14b8296db4ba3d04fae67b09f67950af, type: 2}
+    - {fileID: 1107424475036026388, guid: ebefc4059b17a4240b9556251a95b4bf, type: 2}
     m_ValueSerializationHelper:
     - {x: 565.2001, y: 138}
     - {x: 565.2001, y: 0}
     - {x: 565.2001, y: 123}
-    - {x: 565.2001, y: 138}
-    - {x: 565.2001, y: 187.80002}
+    - {x: 411.6001, y: 148}
+    - {x: 411.6001, y: 148}
+    - {x: 411.6001, y: 148}
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 0}
-  m_BreadCrumbs: []
+  m_AnimatorController: {fileID: 9100000, guid: 14b8296db4ba3d04fae67b09f67950af,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107685749916563298, guid: 14b8296db4ba3d04fae67b09f67950af,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
   blendTreeGraph: {fileID: 0}
@@ -492,14 +498,14 @@ MonoBehaviour:
     width: 1028
     height: 463
   m_SceneLighting: 1
-  lastFramingTime: 1619.3534883133968
+  lastFramingTime: 7284.002000825089
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -530.92676, y: 4.8040037, z: 13.499307}
+    m_Target: {x: -1503.8671, y: 58.619072, z: 110.86466}
     speed: 2
-    m_Value: {x: -530.92676, y: 4.8040037, z: 13.499307}
+    m_Value: {x: -1503.8671, y: 58.619072, z: 110.86466}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -522,13 +528,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.13338836, y: -0.023108723, z: 0.001521652, w: 0.9905954}
+    m_Target: {x: 0.060280353, y: 0.0013804478, z: -0.002248773, w: 0.9982773}
     speed: 2
-    m_Value: {x: 0.1334145, y: -0.023113253, z: 0.0015219502, w: 0.9907896}
+    m_Value: {x: 0.06027438, y: 0.001380311, z: -0.00224855, w: 0.9981784}
   m_Size:
-    m_Target: 224.45337
+    m_Target: 211.27309
     speed: 2
-    m_Value: 224.45337
+    m_Value: 211.27309
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -592,10 +598,10 @@ MonoBehaviour:
     width: 254
     height: 926
   m_TreeViewState:
-    scrollPos: {x: 0, y: 4784}
-    m_SelectedIDs: 244e0000
-    m_LastClickedID: 20004
-    m_ExpandedIDs: 6cf3ffff02fcffff00000000963b00006e3c0000683e00006e470000f4480000744a00000c4c0000
+    scrollPos: {x: 0, y: 1507}
+    m_SelectedIDs: 10f2ffff
+    m_LastClickedID: -3568
+    m_ExpandedIDs: 5ea1ebff38f3ffffcefbffff00000000b03c0000bc3c00000c3d00009a3d0000e23d0000ae3f00001a4000004640000032410000404100004e4100000c42000012420000804200001c4300002e44000094440000ea4400004e45000074450000b8450000c2450000ea450000f246000052470000a0470000ca480000d848000058490000f64900000a4a00008c4b00009c4b00002e4d00004a4d0000804d0000944d0000be4e000030500000905000004e5100006c5100001a53000036530000fc530000a6540000365500001e5600004c570000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,20 +662,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\10664464\Desktop\Schoolwork for reals\2670UVU\Gaming
     Essentials\Game Prototype\BearBears
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1e280000
-    m_LastClickedID: 10270
-    m_ExpandedIDs: 000000001e28000000ca9a3bffffff7f
+    m_SelectedIDs: be3a0000
+    m_LastClickedID: 15038
+    m_ExpandedIDs: 00000000f428000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +703,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001e280000
+    m_ExpandedIDs: 00000000f4280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -749,7 +755,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 1583}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &21
