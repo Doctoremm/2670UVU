@@ -1,24 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ResetEverything : MonoBehaviour {
 
-    public Vector3 startPosition;
-    private Quaternion startRotation;
-
-    private void Start()
+    public void LoadLevel(string level)
     {
-        ObjectStart.ResetObject += ResetAllObjectsHandler;
-        startPosition = transform.position;
-        startRotation = this.transform.rotation;
-    }
-
-    void ResetAllObjectsHandler()
-    {
-        print("Help");
-        transform.position = startPosition;
-        this.transform.rotation = startRotation;
+        SceneManager.LoadScene("Temple");
+        print("BeginGame");
     }
 }

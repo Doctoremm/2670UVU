@@ -26,6 +26,7 @@ public class PlayButton : MonoBehaviour {
         MainMenu.SetActive(false);
         PauseMenu.SetActive(false);
         Credits.SetActive(false);
+        
     }
 
     public void PushMain()
