@@ -87,12 +87,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AnimateBoy.cs" />
     <Compile Include="Assets\Scripts\BugFollow.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ChangeObjectPosition.cs" />
     <Compile Include="Assets\Scripts\ChangeSpeed.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
-    <Compile Include="Assets\Scripts\CreateTrigger.cs" />
     <Compile Include="Assets\Scripts\Data.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
@@ -106,7 +106,6 @@
     <Compile Include="Assets\Scripts\MoveCharacter.cs" />
     <Compile Include="Assets\Scripts\MoveInput.cs" />
     <Compile Include="Assets\Scripts\ObjectInteraction.cs" />
-    <Compile Include="Assets\Scripts\ObjectStart.cs" />
     <Compile Include="Assets\Scripts\PlayButton.cs" />
     <Compile Include="Assets\Scripts\playerhealth.cs" />
     <Compile Include="Assets\Scripts\Reset.cs" />
