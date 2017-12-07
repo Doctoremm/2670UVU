@@ -8,6 +8,7 @@ public class ResetEverything : MonoBehaviour {
 
     public void LoadLevel(string level)
     {
+        MoveInput.NullifyAction();
         SceneManager.LoadScene("Temple");
         print("BeginGame");
     }

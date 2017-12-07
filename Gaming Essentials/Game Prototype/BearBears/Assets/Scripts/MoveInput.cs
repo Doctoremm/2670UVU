@@ -20,6 +20,20 @@ public class MoveInput : MonoBehaviour {
         PlayButton.Play += StartGameplay;
     }
 
+    public static void NullifyAction()
+    {
+        KeyAction = null;
+        JumpAction = null;
+        CrouchAction = null;
+        StandingAction = null;
+        SendHealth.Die = null;
+        SendHealth.HealthAction = null;
+        ChangeSpeed.SendSpeed = null;
+        Death.End = null;
+        PlayButton.Play = null;
+
+    }
+
     private void StartGameplay()
     {
         Time.timeScale = 1;
