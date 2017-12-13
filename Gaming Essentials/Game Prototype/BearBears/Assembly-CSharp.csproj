@@ -76,6 +76,7 @@
      <Compile Include="Assets\Scripts\ResetEverything.cs" />
      <Compile Include="Assets\Scripts\RotateObject.cs" />
      <Compile Include="Assets\Scripts\SendHealth.cs" />
+     <Compile Include="Assets\Scripts\SetActive.cs" />
      <Compile Include="Assets\Scripts\StaticVars.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\UpdateHealthBar.cs" />
